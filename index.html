@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giles Bonner</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="icon" href="images/icon.png">
+
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/waypoints.css">
+</head>
+
+<body>
+    <div class="intro">
+        <div class="inner">
+            <div class="content">
+                <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
+                    <h1>Hi, I'm Giles Bonner</h1>
+                </section>
+                <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0.2s">
+                    <a class="start-btn" href="#wrapper">Enter</a>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="banner-wrapper">
+            <header>
+                <div id="header-inner">
+                    <a id="logo"></a>
+                    <nav>
+                        <a href="#" id="menu-icon"></a>
+                        <ul>
+                            <li><a class="nav" href="#home">Home</a></li>
+                            <li><a class="nav" href="#about">About</a></li>
+                            <li><a class="nav" href="#experience">Experience</a></li>
+                            <li><a class="nav" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <!--Slider start-->
+            <script src="js/jquery.bxslider.min.js"></script>
+            <div class="slide-wrap">
+                <section class="slider">
+                    <ul class="slider1">
+                        <li><img src="images/pexels-photo-169573.jpeg"></li>
+                        <li><img src="images/pexels-photo-160107.jpeg"></li>
+                        <li><img src="images/pexels-photo-92904.jpeg"></li>
+                    </ul>
+                </section>
+            </div>
+            <script type="text/javascript">
+                $('.slider1').bxSlider({
+                    mode: 'fade',
+                    captions: false,
+                    auto: true,
+                    pager: false,
+
+
+                });
+                $('.slider2').bxSlider({
+                    pager: false,
+                    captions: true,
+                    maxSlides: 3,
+                    minSlides: 1,
+                    slideWidth: 230,
+                    slideMargin: 10
+                });
+                $('.slider3').bxSlider({
+                    mode: 'fade',
+                    captions: false,
+                    auto: true,
+                    pager: false,
+                    controls: false,
+                });
+
+            </script>
+            <!--slider end-->
+        </div>
+        <!--one third icons-->
+        <h3 class="title">About Me</h3>
+        <section class="one-third">
+            <div class="icon-wrap">
+                <td><i class="fa fa-university"></i></td>
+            </div>
+            <h3>Student</h3>
+        </section>
+        <section class="one-third">
+            <div class="icon-wrap">
+                <td><i class="fa fa-file-code-o"></i></td>
+            </div>
+            <h3>Developer</h3>
+        </section>
+        <section class="one-third">
+            <div class="icon-wrap">
+                <td><i class="fa fa-cogs"></i></td>
+            </div>
+            <h3>Thinker</h3>
+        </section>
+        <!--about me paragraph-->
+        <section id="about">
+            <p>I am currently an Undergraduate Student, studying for a Bachelor's Degree in Computer Science with a particular interest in FinTech/SaaS. I Have experience programming with JAVA, HTML, CSS, JavaScript, JQuery, BootStrap, XML, and VB.NET, as well as minor exposure to SWIFT. I am also familiar with Computer Networking, Database Development (Oracle SQL Developer) and Formal Software Design Methods. I have a good working knowledge of MS Word, PowerPoint, Excel, Dynamics 365, and Visio. Some of my true passions are technology, cars, cooking, and foreign travel. I was fortunate enough to be born in London and lived there until I was 6 years old before I came to the United States. This gave me the wonderful opportunity to see a fair amount of Europe such as France, Spain, Italy, and Germany. I have resided in Westport, CT ever since I moved here.</p>
+        </section>
+        <h3 class="title">Experience</h3>
+        <section id="experience">
+            <h3>I.T. Special Projects - North Mill Equipment Finance</h3>
+            <h4>Janary 2017 - August 2017</h4>
+            <p class="work">My biggest project included transferring all customer contract information to a new cloud service, which included research for cloud services safe enough for PII, one less expensive than the current cloud service being used, and preferably one with collaborative capabilities. I also Assisted in the creation of a script to merge PDF documents (contract images) with XML data (Metadata of contracts) to improve search capabilities.</p>
+            <br>
+            <p>Other responsibilites include</p>
+            <ul class="work-resp">
+                <li>Quality Assurance</li>
+                <li>Assistance with Quick Scope Documents</li>
+                <li>Assistance with Work Flow Charts</li>
+                <li>Assistance with Development</li>
+            </ul>
+            <section class="one-third-work">
+                <h3>Data Analyst - North Mill Equipment Finance</h3>
+                <h4>October 2016 - January 2017</h4>
+                <br>
+                <p>Responsibilities</p>
+                <ul class="work-resp">
+                    <li>Maintain 'Historical Sales' spreadsheet and monitor data trends such as market values</li>
+                    <li>Market Research</li>
+                    <li>Worked closely with Remarketing Department (maintained spreadsheet containing all assets out for repossession as well as spreadsheet for all assets for sale)</li>
+                    <li>Produce monthly data reports for performance of repossession agents as well as historical sales</li>
+                </ul>
+            </section>
+            <section class="one-third-work">
+                <h3>Data Analyst - Ethan Allen Global Incorporated</h3>
+                <h4>July 2016 - September 2016</h4>
+                <br>
+                <p>Responsibilities</p>
+                <ul class="work-resp">
+                    <li>Importing data from various external data sources</li>
+                    <li>Data cleansing and standardization</li>
+                    <li>Data manipulation to uncover trends and insights</li>
+                    <li>Creating data visualizations to convey findings</li>
+                    <li>Exporting data to external sources through spreadsheets</li>
+                </ul>
+            </section>
+            <section class="one-third-work">
+                <h3>Marketing Intern - Northwestern Mutual Life Insurance</h3>
+                <h4>August 2015 - April 2016</h4>
+                <br>
+                <p>Responsibilities</p>
+                <ul class="work-resp">
+                    <li>Assist in the creation of signage, mockups, e-mail campaigns, online promotion</li>
+                    <li>Create and maintain website forum</li>
+                    <li>Assist with the preparation and delivery of training materials</li>
+                    <li>Perform analysis of marketing and sales data</li>
+                    <li>Seek and analyze competitor marketing and sales materials</li>
+                    <li>Prepare presentations</li>
+                    <li>Provide support to social media efforts and company website</li>
+                    <li>Maintain tracking report of PR activity</li>
+                    <li>Maintain CRM</li>
+                </ul>
+            </section>
+        </section>
+        <div class="contact" id="contact">
+            <h3 class="title">Contact</h3>
+            <p id="contact-me">I'm always looking for new opportunities. Want to work together? Lets get in touch!</p><br>
+            <form method="POST" action="http://formspree.io/gjbonner@gmail.com">
+                <input type="email" id="email" name="email" placeholder="Your email">
+                <textarea name="message" id="msg" placeholder="Your message"></textarea><br>
+                <button type="submit" id="btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+            </form>
+
+        </div>
+    </div>
+    <div id="container">
+        <div class="footer">
+            <div class="icon-text">
+                <div class="icon-text-text">
+                    <ul class="footer-nav">
+                        <li><a class="nav" href="#wrapper">Home</a></li>
+                        <li><a class="nav" href="#about">About</a></li>
+                        <li><a class="nav" href="#experience">Experience</a></li>
+                        <li><a class="nav" href="#contact">Contact</a></li>
+                        <li><a href="https://www.github.com/gjbonner"><i class="fa fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/giles-bonner-b74babb9
+"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-under">
+            <p>Made with <i class="fa fa-heart"></i> by Giles Bonner</p>
+        </div>
+    </div>
+    <!--JS-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/waypoints.js"></script>
+</body>
+
+</html>
