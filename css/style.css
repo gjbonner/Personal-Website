@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #F1F6F8;
+    font-family: sans-serif;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #2F4F4F;
+    font-size: 150%;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #2F4F4F;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #2F4F4F;
+}
+
+a {
+    color: #778899;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #20B2AA;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+#header-inner .navbar-inverse{
+    margin-left: 80px;
+    background-color: #F1F6F8;
+    border-color: #F1F6F8;
+    font-size: 175%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#logo {
+    margin-top: 10px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: url(../images/icon.png);
+    background-size: contain;
+}
+
+#wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+
+
+.slider {
+    max-width: 1200px;
+}
+
+.slider1 li img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.slider .bx-wrapper .bx-controls-direction a {
+    display: none;
+}
+
+.title {
+    text-align: center;
+    font-size: 300%;
+    color: #2F4F4F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.one-third {
+    width: 33.33333%;
+    float: left;
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-wrap {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 125%;
+    text-align: center;
+    background-color: #54A4A6;
+    margin-bottom: 3%;
+    margin-top: 8%;
+}
+
+.icon-wrap i {
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 450%;
+    padding: 20%;
+}
+
+#experience {
+    margin-top: 20px;
+}
+
+.work {
+    margin-top: 20px;
+}
+
+.work-resp {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    list-style: circle;
+    color: #2F4F4F;
+    font-weight: 600;
+    padding-left: 20px;
+    line-height: 150%;
+}
+
+.one-third-work {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 28%;
+    float: left;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#container {
+    width: 100%;
+    height: 100px;
+}
+
+#container .footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    margin-top: 80px;
+    background: linear-gradient(to right, #54A4A6, #A9A9A9);
+
+}
+
+.footer-nav {
+    list-style: none;
+}
+
+.footer-nav li {
+    display: inline;
+    padding: 5px;
+    font-size: 150%;
+}
+
+.footer-nav li a {
+    color: #F1F6F8;
+    display: inline;
+}
+
+.footer-nav li a:hover {
+    color: #2F4F4F;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+
+}
+
+.icon-text {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+form {
+    padding: 30px;
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+#email {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 100%;
+}
+
+#email:focus {
+    outline: none;
+}
+
+
+#msg {
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 125%;
+}
+
+#msg:focus {
+    outline: none;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+#btn {
+    border: transparent;
+    padding: 10px 40px 10px 40px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 3px solid #54A4A6;
+    border-radius: 8px;
+    font-size: 170%;
+    color: #54A4A6;
+}
+
+#btn:hover {
+    color: #54A4A6;
+    background: #DCDCDC;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    cursor: pointer;
+}
+
+#btn:focus {
+    outline: none;
+}
+
+p i {
+    color: red;
+}
+
+.footer-under {
+    width: 100%;
+    font-size: 75%;
+    text-align: center;
+    background-color: #F1F6F8;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../images/pexels-photo-414491.jpeg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.content h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 400%;
+    font-weight: 100;
+    color: #2F4F4F;
+    margin-bottom: 50px;
+}
+
+.start-btn {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #008080;
+    font-size: 175%;
+    color: #2F4F4F;
+    text-transform: uppercase;
+}
+
+.start-btn:hover{
+    color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 130%;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 150%;
+        margin: 10px;
+    }
+    h4 {
+        margin: 10px;
+    }
+    header {
+        height: 80px;
+        position: relative;
+    }
+    #logo {
+        height: 65px;
+        width: 65px;
+        background: url(../images/icon.png) no-repeat center;
+        background-size: contain;
+    }
+
+    .one-third {
+        float: left;
+        width: 100%;
+    }
+
+    .icon-wrap {
+        height: 80px;
+        width: 80px;
+        margin-top: 3%;
+    }
+
+    .icon-wrap i {
+        font-size: 250%;
+        padding-top: 27%;
+    }
+
+    .one-third-work {
+        width: 70%;
+    }
+
+    .footer-nav {
+        text-align: center;
+    }
+    
+    .content{
+        padding-bottom: 30px;
+    }
+    .content h1{
+        font-size: 300%;
+    }
+    .start-btn{
+        font-size: 130%;
+        padding: 9px 17px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .content{
+        padding-bottom: 50%;
+    }
+    
+    .content h1{
+        font-size: 200%;
+    }
+    
+    .start-btn{
+        font-size: 100%;
+        padding: 6px 14px;
+    }
+}
+
