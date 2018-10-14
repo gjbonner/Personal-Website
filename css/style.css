@@ -66,14 +66,6 @@ header {
     top: 0;
     left: 0;
 }
-#header-inner .navbar-inverse{
-    margin-left: 80px;
-    background-color: #F1F6F8;
-    border-color: #F1F6F8;
-    font-size: 175%;
-    font-family: 'Raleway', sans-serif;
-}
-
 
 #logo {
     margin-top: 10px;
@@ -96,6 +88,33 @@ header {
     padding: 0 0 3% 0;
 }
 
+/* nav */
+
+nav {
+    float: right;
+    padding: 25px 20px 0px 0px;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(../images/nav-dark.png);
+    background-size: contain;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
 
 .slider {
     max-width: 1200px;
@@ -366,6 +385,29 @@ p i {
         background: url(../images/icon.png) no-repeat center;
         background-size: contain;
     }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul,
+    nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #F5F5F5;
+        border: 1px solid #54A4A6;
+        right: 20px;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
 
     .one-third {
         float: left;
@@ -390,7 +432,7 @@ p i {
     .footer-nav {
         text-align: center;
     }
-    
+
     .content{
         padding-bottom: 30px;
     }
@@ -407,14 +449,13 @@ p i {
     .content{
         padding-bottom: 50%;
     }
-    
+
     .content h1{
         font-size: 200%;
     }
-    
+
     .start-btn{
         font-size: 100%;
         padding: 6px 14px;
     }
 }
-
