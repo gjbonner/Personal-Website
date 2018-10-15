@@ -359,9 +359,31 @@ p i {
     color: #fff;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
 
+.back-to-top.show {
+    opacity: 1;
+}
 
-
+.back-to-top  i {
+    font-size: 300%;
+}
 
 @media screen and (max-width: 768px) {
     p {
