@@ -58,7 +58,7 @@ if ($('.back-to-top').length) {
     $('.back-to-top').on('click', function (e) {
         e.preventDefault();
         $('html,body').animate({
-            scrollTop: 0
+            scrollTop: $('#wrapper').offset().top
         }, 700);
     });
 }
