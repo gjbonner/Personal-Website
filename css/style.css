@@ -385,6 +385,12 @@ p i {
     font-size: 300%;
 }
 
+@media screen and (max-width: 1200px){
+    p, h3, h4{
+        padding-left: 2%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     p {
         font-size: 130%;
