@@ -377,6 +377,14 @@ p i {
     opacity: 0;
 }
 
+.back-to-top:hover {
+    color: #54A4A6;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+}
+
 .back-to-top.show {
     opacity: 1;
 }
