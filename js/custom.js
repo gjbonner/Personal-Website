@@ -1,6 +1,5 @@
 /* Smooth scrolling */
 
-
 $(document).ready(function () {
 
     $('.nav').click(function () {
@@ -62,4 +61,3 @@ if ($('.back-to-top').length) {
         }, 700);
     });
 }
-
