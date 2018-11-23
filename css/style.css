@@ -395,6 +395,8 @@ p i {
     font-size: 300%;
 }
 
+
+
 @media screen and (max-width: 1200px){
     p, h3, h4{
         padding-left: 2%;
@@ -431,7 +433,6 @@ p i {
     }
     nav ul,
     nav:active ul {
-        display: none;
         z-index: 1000;
         position: absolute;
         padding: 20px;
