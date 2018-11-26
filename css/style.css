@@ -433,6 +433,7 @@ p i {
     }
     nav ul,
     nav:active ul {
+        display: none;
         z-index: 1000;
         position: absolute;
         padding: 20px;
