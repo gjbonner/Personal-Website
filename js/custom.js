@@ -1,3 +1,13 @@
+//email validation
+
+let email = document.getElementById('email')
+let message = document.getElementById('message')
+let submit = document.getElementById('btn')
+
+btn.addEventListener('click',function(){
+    console.log('hello!')
+})
+
 /* Smooth scrolling */
 
 $(document).ready(function () {
