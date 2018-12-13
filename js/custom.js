@@ -1,14 +1,21 @@
-//email validation
+//contact validation
 
 let email = document.getElementById('email')
-let message = document.getElementById('message')
+let message = document.getElementById('msg')
 let submit = document.getElementById('btn')
 
 btn.addEventListener('click',function(){
-    console.log('hello!')
+    
+    if(email.innerText === '' || message.innerText === ''){
+        btn.preventDefault()
+    }
 })
 
-/* Smooth scrolling */
+message.addEventListener('keydown', function(e){
+    console.log(e.target.value)
+})
+
+//smooth scroll
 
 $(document).ready(function () {
 
@@ -48,6 +55,8 @@ $(document).ready(function () {
     });
 
 });
+
+//top arrow
 
 if ($('.back-to-top').length) {
     var scrollTrigger = 1100, // px
