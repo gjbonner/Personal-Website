@@ -5,14 +5,14 @@ let message = document.getElementById('msg')
 let submit = document.getElementById('btn')
 
 btn.addEventListener('click',function(){
-    
+
     if(email.innerText === '' || message.innerText === ''){
         btn.preventDefault()
     }
 })
 
 message.addEventListener('keydown', function(e){
-    console.log(e.target.value)
+    console.log('clicked')
 })
 
 //smooth scroll
