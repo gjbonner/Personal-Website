@@ -1,18 +1,19 @@
 //contact validation
-
-let email = document.getElementById('email')
+//import swal from 'sweetalert';
+let emailAd = document.getElementById('email')
 let message = document.getElementById('msg')
 let submit = document.getElementById('btn')
 
-btn.addEventListener('click',function(){
 
-    if(email.innerText === '' || message.innerText === ''){
-        btn.preventDefault()
-    }
+btn.addEventListener('click',function(e){
+  if(message.length === 0){
+    e.preventDefault()
+  }
 })
 
 message.addEventListener('keydown', function(e){
-    console.log('clicked')
+    console.log('missing something')
+    console.log(emailAd.innerText)
 })
 
 //smooth scroll
